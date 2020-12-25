@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.app {
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+}
+
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgb(0, 0, 0.7));
+  padding: 25px;
+}
+
+
+.arz{
+  color: #FFF;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: right;
+}
+.arz .arz_box{
+  margin: 30px auto;
+  background-color: rgba(8, 8, 8, 0.5);
+  border-radius:16px 16px 16px 16px;
+  box-shadow: 3px 3px rgb(50,50,70,0.2);
+
+  color: #FFF;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: right;
+  padding: 15px;
+}
+
+
+
+.tala {
+ color: #FFF;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.tala .tala_box{
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255,0.2);
+  border-radius:16px 16px 16px 16px;
+  box-shadow: 3px 3px rgb(50,50,70,0.2);
+
+  
+  color: #FFF;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: right;
+  padding: 15px;
+
+}
+
+
+
+
+.date {
+  margin: 50px auto;
+  background-color: rgba(250, 248, 248, 0.048);
+
+  color: #FFF;
+  font-size:15px;
+  font-family: sans-serif;
+  text-align: right;
+ }
+
+.tala-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgb(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgb(50, 50, 70, 0.2);
+}
+
+.tala-box .weather {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgb(50, 50, 70, 0.5);
+}
+.kharid{
+  color: #FFF;
+  font-size: 20px;
+  text-align:left;
+}
+.forosh{
+  color: #FFF;
+  font-size: 20px;
+  text-align:left;
+
+}
+.qeimat{
+  color: #FFF;
+  font-size: 20px;
+  text-align:left;
+}
